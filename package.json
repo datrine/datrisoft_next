@@ -30,7 +30,7 @@
     "react-dom": "16.13.1",
     "string-sanitizer": "^1.1.1",
     "swr": "^0.2.0",
-    "tinymce": "^5.2.2",
+    "tinymce": "^5.7.1",
     "unfetch": "^4.1.0",
     "w3-css": "^4.1.0"
   }
