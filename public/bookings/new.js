@@ -8,7 +8,7 @@ import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import parse from 'html-react-parser'
 import moment from 'moment'
 import Link from 'next/link'
-import { validClient } from '../../../utils/validators'
+import { validClient } from '../../utils/validators'
 import useSWR from 'swr'
 const Editor = dynamic(() => import('@tinymce/tinymce-react').then(mod => mod.Editor), {
     ssr: false,
