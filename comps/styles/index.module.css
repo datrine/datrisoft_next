@@ -91,7 +91,7 @@ color: #000000;
 
 .projecttile{
 text-align: center;
-width: 200px;
+width: 250px;
 }
 .pttop{
     width: 100%;
@@ -119,4 +119,10 @@ padding: 2px;
 .fcinput{
     margin-bottom: 20;
     display: block;
+}
+
+.footernew{
+    background-image: url('/svgs/footer.svg');
+    background-size: cover;
+    height: 300px;
 }

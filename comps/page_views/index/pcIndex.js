@@ -9,14 +9,14 @@ const PCIndex = () => {
         <TopBanner />
         <FourBigBoxes />
         <ProjectList />
-        <Footer />
+        <FooterNew />
     </>
 }
 
 function TopBanner(params) {
     return <>
         <Container className={styles.topbanner} >
-            <PCMenu/>
+            <PCMenu />
             <Grid className={styles.tbgridparent} alignItems="flex-end" container>
                 <Grid className={styles.tbgrid1} item md={6} container >
                     <h3 className={styles.tbg1h3}>Grow Your
@@ -29,12 +29,19 @@ function TopBanner(params) {
                         Gain experience developing with React, Nodejs, CMS like Strapi,
                         MySQL, POSTGRESQL, MongoDB.
                     </h6>
-                    <p><button className="w3-btn"
-                        style={{ borderRadius: "100px", backgroundColor: "white" }} >Apply now</button></p>
+                    <p> <ApplyBtn /></p>
+                   
                 </Grid>
             </Grid>
         </Container>
     </>
+}
+
+function ApplyBtn(params) {
+    return <>
+            <button className="w3-btn"
+                style={{ borderRadius: "100px", backgroundColor: "white" }} >Apply now</button>
+      </>
 }
 
 function FourBigBoxes(params) {
@@ -67,6 +74,21 @@ function ProjectList() {
                         bgColorTop={bgColorTop} bgColorBottom={bgColorBottom} key={index} />)}
             </Grid>
         </Container>
+    </>
+}
+
+function FooterNew(params) {
+    return <>
+        <Grid container className={styles.footernew}>
+            <Grid container style={{ height: "150px" }}></Grid>
+            <Grid container style={{ height: "150px",}} 
+            justifyContent="center" direction="column">
+                <Container>
+                <h2 style={{ color: "white",textAlign:"center" }}>JOIN US TODAY AT DATRISOFT</h2>
+              <p style={{textAlign:"center"}} > <ApplyBtn /></p> 
+                </Container>
+            </Grid>
+        </Grid>
     </>
 }
 
