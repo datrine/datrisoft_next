@@ -4,6 +4,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
  
 import { faBars, faUser } from '@fortawesome/free-solid-svg-icons'
+import "bootstrap/dist/css/bootstrap.min.css"
  
 library.add(faBars)
 

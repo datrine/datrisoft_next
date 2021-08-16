@@ -1,7 +1,12 @@
-.topbanner{
+.topdiv{
     background-image: url('/imgs/home_banner_1.png');
     background-size: contain;
     height: 100vh;
+    width:100vw;
+}
+.topbanner{
+    background-color: rgba(250, 250, 250, 0.5);
+    height: 100%;
 }
 
 
@@ -51,6 +56,7 @@
 .box1{
     height: 100%;
 }
+
 .boxtitle{
 
 font-family: Roboto;

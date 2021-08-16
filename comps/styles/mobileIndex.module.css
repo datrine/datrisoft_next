@@ -1,0 +1,40 @@
+
+.topbanner{
+   
+    background-image: url('/imgs/home_banner_1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 400px;
+}
+
+
+.tbgridparent{
+}
+
+.tbgrid1{
+    height: 50%;
+}
+
+.tbg1h3{
+    font-size:20px;
+}
+
+.applynowbtn{
+    border-radius: 25%;
+    
+}
+
+.whyWorkCls{
+background-color: #001131;
+color: #fda34b;
+width: 100%;
+}
+
+.whatofferCls{
+    color: #001131;
+    background-color: #fda34b;
+}

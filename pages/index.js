@@ -1,3 +1,4 @@
+import MobileIndex from "../comps/page_views/index/mobileView"
 import PCIndex from "../comps/page_views/index/pcIndex"
 import View from "../comps/view"
 
@@ -6,7 +7,7 @@ const Home = () => {
 }
 
 function MobileView(params) {
-
+  return <><MobileIndex /></>
 }
 
 function PCView(params) {
