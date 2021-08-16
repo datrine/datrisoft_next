@@ -130,5 +130,7 @@ padding: 2px;
 .footernew{
     background-image: url('/svgs/footer.svg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 300px;
 }

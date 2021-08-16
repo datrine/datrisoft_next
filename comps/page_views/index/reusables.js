@@ -62,6 +62,29 @@ function ProjectTile({ src, name, bgColorTop, bgColorBottom, colorTop, colorBott
     </>
 }
 
+
+function ApplyBtn(params) {
+    return <>
+        <button className="w3-btn"
+            style={{ borderRadius: "100px", backgroundColor: "white", fontWeight: "bolder" }} >Apply now</button>
+    </>
+}
+
+function FooterNew(params) {
+    return <>
+        <Grid container className={styles.footernew}>
+            <Grid container style={{ height: "150px" }}></Grid>
+            <Grid container style={{ height: "150px", }}
+                justifyContent="center" direction="column">
+                <Container>
+                    <h2 style={{ color: "white", textAlign: "center" }}>JOIN US TODAY AT DATRISOFT</h2>
+                    <p style={{ textAlign: "center" }} > <ApplyBtn /></p>
+                </Container>
+            </Grid>
+        </Grid>
+    </>
+}
+
 function WhyWorkView(params) {
     return <>
         <Container className={styles.box1}>
@@ -212,4 +235,5 @@ let projectListObjs = [{
 
 export { whyWorkObjs, whatToOfferObjs, futureSpecialObjs, projectListObjs }
 
-export { WhyWorkView, WhatToOfferView, ProjectList, ProjectTile, ItemOfWhyWorkView }
+export { WhyWorkView, WhatToOfferView, ProjectList, ProjectTile, 
+    ItemOfWhyWorkView ,FooterNew}

@@ -1,7 +1,7 @@
 
 import { Container, Grid, Typography } from "@material-ui/core";
 import styles from "../../styles/mobileIndex.module.css"
-import { futureSpecialObjs, ProjectList, whatToOfferObjs, whyWorkObjs, WhyWorkView } from "./reusables";
+import { FooterNew, futureSpecialObjs, ProjectList, whatToOfferObjs, whyWorkObjs, WhyWorkView } from "./reusables";
 
 function MobileIndex(params) {
     return <>
@@ -9,6 +9,7 @@ function MobileIndex(params) {
         <WhyWorkWithUs />
         <WhatToOfferView />
         <ProjectList />
+        <FooterNew/>
     </>
 }
 

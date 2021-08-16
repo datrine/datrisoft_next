@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Card, CardContent, Container, Grid, TextField } from "@material-ui/core"
 import { PCMenu } from "../../general/pc_menu"
 import styles from "../../styles/index.module.css"
-import { ProjectList, WhatToOfferView, WhyWorkView } from "./reusables"
+import { ProjectList, WhatToOfferView, WhyWorkView ,FooterNew} from "./reusables"
 
 const PCIndex = () => {
     return <>
@@ -40,13 +40,6 @@ function TopBanner(params) {
     </>
 }
 
-function ApplyBtn(params) {
-    return <>
-        <button className="w3-btn"
-            style={{ borderRadius: "100px", backgroundColor: "white", fontWeight: "bolder" }} >Apply now</button>
-    </>
-}
-
 function FourBigBoxes(params) {
     return <>
         <Grid container className={styles.fourbigboxes}>
@@ -66,21 +59,6 @@ function FourBigBoxes(params) {
     </>
 }
 
-
-function FooterNew(params) {
-    return <>
-        <Grid container className={styles.footernew}>
-            <Grid container style={{ height: "150px" }}></Grid>
-            <Grid container style={{ height: "150px", }}
-                justifyContent="center" direction="column">
-                <Container>
-                    <h2 style={{ color: "white", textAlign: "center" }}>JOIN US TODAY AT DATRISOFT</h2>
-                    <p style={{ textAlign: "center" }} > <ApplyBtn /></p>
-                </Container>
-            </Grid>
-        </Grid>
-    </>
-}
 
 function Footer() {
     return <>
