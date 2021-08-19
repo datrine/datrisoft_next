@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Card, CardContent, Container, Grid, TextField } from "@material-ui/core"
 import { PCMenu } from "../../general/pc_menu"
 import styles from "../../styles/index.module.css"
-import { ProjectList, WhatToOfferView, WhyWorkView ,FooterNew} from "./reusables"
+import { ProjectList, WhatToOfferView, WhyWorkView ,FooterNew,ApplyBtn} from "./reusables"
 
 const PCIndex = () => {
     return <>

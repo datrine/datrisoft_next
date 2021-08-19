@@ -236,4 +236,4 @@ let projectListObjs = [{
 export { whyWorkObjs, whatToOfferObjs, futureSpecialObjs, projectListObjs }
 
 export { WhyWorkView, WhatToOfferView, ProjectList, ProjectTile, 
-    ItemOfWhyWorkView ,FooterNew}
+    ItemOfWhyWorkView ,FooterNew,ApplyBtn}
